@@ -1,0 +1,13 @@
+* {
+    border: 1px solid red;
+}
+
+img {
+    max-width: 80vw;
+    height: auto;
+    object-fit: contain;
+}
+
+.imageHolder {
+
+}
