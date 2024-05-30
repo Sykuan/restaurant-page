@@ -1,13 +1,6 @@
-* {
-    border: 1px solid red;
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 5vw;
 }
 
-img {
-    max-width: 80vw;
-    height: auto;
-    object-fit: contain;
-}
-
-.imageHolder {
-
-}
