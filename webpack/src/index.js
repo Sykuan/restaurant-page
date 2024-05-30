@@ -10,6 +10,8 @@ import loadHomepage from './load-Homepage.js';
 import loadMenu from './load-menu.js';
 import loadStylesheet from './loadStylesheet.js';
 
+loadHomepage();
+
 // call function
 
 const allBtns = document.getElementsByTagName('button');
