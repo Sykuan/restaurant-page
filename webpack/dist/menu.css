@@ -1,0 +1,30 @@
+/* * {
+    border: solid 2px red;
+} */
+
+.heading {
+    grid-area: header;
+}
+
+.menuSectionOne {
+    grid-area: menuSectionOne;
+}
+
+.menuSectionTwo {
+    grid-area: menuSectionTwo;
+}
+
+.menuSectionThree {
+    grid-area: menuSectionThree;
+}
+
+#content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+        "header header"
+        "menuSectionOne menuSectionThree"
+        "menuSectionTwo .";
+    gap: 3vh;
+}
